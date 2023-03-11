@@ -1,0 +1,17 @@
+[tool.pdm]
+
+[project]
+name = "codecov_exploring"
+version = "0.1.0"
+description = "just to test codecov"
+authors = [
+    {name = "Jon Peirce", email = "jon.peirce@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"

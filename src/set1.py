@@ -1,0 +1,1 @@
+print("This call is running for all platforms")

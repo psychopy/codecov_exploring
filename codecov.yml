@@ -1,0 +1,32 @@
+
+coverage:
+  status:
+    project:
+      default:
+        branches: 
+          - main
+        if_ci_failed: error #success, failure, error, ignore
+        informational: false
+        only_pulls: false
+    patch:
+      default:
+        branches: 
+          - main
+        if_ci_failed: ignore #success, failure, error, ignore
+        informational: true
+        only_pulls: false
+    set1:
+      default:
+        branches: 
+          - main
+        if_ci_failed: ignore #success, failure, error, ignore
+        informational: true
+        only_pulls: false
+        
+
+ignore:
+  - "psychopy/demos/coder"  # ignore folders and all its contents
+  - "psychopy/tests"
+  - "psychopy/scripts"
+  - "psychopy/iohub"
+  - "psychopy/contrib"
