@@ -22,11 +22,10 @@ coverage:
         if_ci_failed: ignore #success, failure, error, ignore
         informational: true
         only_pulls: false
-        
+
+comment:                  # this is a top-level key
+  layout: "reach, diff, flags, files"
+  behavior: default
 
 ignore:
-  - "psychopy/demos/coder"  # ignore folders and all its contents
-  - "psychopy/tests"
-  - "psychopy/scripts"
-  - "psychopy/iohub"
-  - "psychopy/contrib"
+  - "junk"  # ignore folders and all its contents
